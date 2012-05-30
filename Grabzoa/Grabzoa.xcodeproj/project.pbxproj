@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainWindow.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* GrabzoaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* GrabzoaAppDelegate.m */; };
+		280F4C08119DDB8700392063 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 280F4C07119DDB8700392063 /* icon.png */; };
+		280F4C2F119DDFE200392063 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 280F4C2E119DDFE200392063 /* DDHotKeyCenter.m */; };
+		280F4C82119DE2C500392063 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280F4C81119DE2C500392063 /* Carbon.framework */; };
+		280F4D93119E03E700392063 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280F4D92119E03E700392063 /* SettingsViewController.m */; };
+		280F4DB3119E06EC00392063 /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280F4DB2119E06EC00392063 /* Settings.xib */; };
+		2846E7D314FEBD3C0004D922 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846E7CB14FEBD3C0004D922 /* NSString+URLEncoding.m */; };
+		2846E7D414FEBD3C0004D922 /* NSString+URLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846E7CE14FEBD3C0004D922 /* NSString+URLEscape.m */; };
+		2846E7D514FEBD3C0004D922 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846E7CF14FEBD3C0004D922 /* NSData+Base64.m */; };
+		2846E7D614FEBD3C0004D922 /* ImgurUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846E7D214FEBD3C0004D922 /* ImgurUploader.m */; };
+		2846E85614FEC9FA0004D922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2846E85514FEC9FA0004D922 /* Foundation.framework */; };
+		2846E85B14FECC8C0004D922 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2846E85A14FECC8B0004D922 /* libssl.dylib */; };
+		2846E85D14FECCB80004D922 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2846E85C14FECCB80004D922 /* Security.framework */; };
+		2846E86414FECDC10004D922 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846E86314FECDC00004D922 /* AsyncSocket.m */; };
+		28A74FD314E8F9CF00EEC6FC /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A74FCA14E8F9CF00EEC6FC /* NSObject+SBJSON.m */; };
+		28A74FD414E8F9CF00EEC6FC /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A74FCC14E8F9CF00EEC6FC /* NSString+SBJSON.m */; };
+		28A74FD514E8F9CF00EEC6FC /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A74FCE14E8F9CF00EEC6FC /* SBJsonBase.m */; };
+		28A74FD614E8F9CF00EEC6FC /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A74FD014E8F9CF00EEC6FC /* SBJsonParser.m */; };
+		28A74FD714E8F9CF00EEC6FC /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A74FD214E8F9CF00EEC6FC /* SBJsonWriter.m */; };
+		28BC3E801548924900B27FB9 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BC3E7F1548924900B27FB9 /* libicucore.dylib */; };
+		28E1C85811BF5417008A69D5 /* icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E1C84F11BF5417008A69D5 /* icon-1.png */; };
+		28E1C85911BF5417008A69D5 /* icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E1C85011BF5417008A69D5 /* icon-2.png */; };
+		28E1C85A11BF5417008A69D5 /* icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E1C85111BF5417008A69D5 /* icon-3.png */; };
+		28E1C85B11BF5417008A69D5 /* icon-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E1C85211BF5417008A69D5 /* icon-4.png */; };
+		28E1C85C11BF5417008A69D5 /* icon-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E1C85311BF5417008A69D5 /* icon-5.png */; };
+		28E1C85D11BF5417008A69D5 /* icon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E1C85411BF5417008A69D5 /* icon-6.png */; };
+		28E1C85E11BF5417008A69D5 /* icon-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E1C85511BF5417008A69D5 /* icon-7.png */; };
+		28E1C85F11BF5417008A69D5 /* icon-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E1C85611BF5417008A69D5 /* icon-8.png */; };
+		28E1C86011BF5417008A69D5 /* icon-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E1C85711BF5417008A69D5 /* icon-9.png */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* GrabzoaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrabzoaAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* GrabzoaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrabzoaAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Grabzoa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grabzoa_Prefix.pch; sourceTree = "<group>"; };
+		280F4C07119DDB8700392063 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		280F4C2D119DDFE200392063 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		280F4C2E119DDFE200392063 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		280F4C81119DE2C500392063 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		280F4D91119E03E700392063 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		280F4D92119E03E700392063 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		280F4DB2119E06EC00392063 /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
+		2846E7CB14FEBD3C0004D922 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		2846E7CC14FEBD3C0004D922 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		2846E7CD14FEBD3C0004D922 /* NSString+URLEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEscape.h"; sourceTree = "<group>"; };
+		2846E7CE14FEBD3C0004D922 /* NSString+URLEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEscape.m"; sourceTree = "<group>"; };
+		2846E7CF14FEBD3C0004D922 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		2846E7D014FEBD3C0004D922 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		2846E7D114FEBD3C0004D922 /* ImgurUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgurUploader.h; sourceTree = "<group>"; };
+		2846E7D214FEBD3C0004D922 /* ImgurUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgurUploader.m; sourceTree = "<group>"; };
+		2846E85514FEC9FA0004D922 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2846E85A14FECC8B0004D922 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		2846E85C14FECCB80004D922 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2846E86214FECDC00004D922 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		2846E86314FECDC00004D922 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		28A74FC814E8F9CF00EEC6FC /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		28A74FC914E8F9CF00EEC6FC /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		28A74FCA14E8F9CF00EEC6FC /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		28A74FCB14E8F9CF00EEC6FC /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		28A74FCC14E8F9CF00EEC6FC /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		28A74FCD14E8F9CF00EEC6FC /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		28A74FCE14E8F9CF00EEC6FC /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		28A74FCF14E8F9CF00EEC6FC /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		28A74FD014E8F9CF00EEC6FC /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		28A74FD114E8F9CF00EEC6FC /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		28A74FD214E8F9CF00EEC6FC /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		28BC3E7F1548924900B27FB9 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		28E1C84F11BF5417008A69D5 /* icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-1.png"; sourceTree = "<group>"; };
+		28E1C85011BF5417008A69D5 /* icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-2.png"; sourceTree = "<group>"; };
+		28E1C85111BF5417008A69D5 /* icon-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-3.png"; sourceTree = "<group>"; };
+		28E1C85211BF5417008A69D5 /* icon-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-4.png"; sourceTree = "<group>"; };
+		28E1C85311BF5417008A69D5 /* icon-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-5.png"; sourceTree = "<group>"; };
+		28E1C85411BF5417008A69D5 /* icon-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-6.png"; sourceTree = "<group>"; };
+		28E1C85511BF5417008A69D5 /* icon-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-7.png"; sourceTree = "<group>"; };
+		28E1C85611BF5417008A69D5 /* icon-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-8.png"; sourceTree = "<group>"; };
+		28E1C85711BF5417008A69D5 /* icon-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-9.png"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Grabzoa-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Grabzoa-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Grabzoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grabzoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BC3E801548924900B27FB9 /* libicucore.dylib in Frameworks */,
+				2846E85D14FECCB80004D922 /* Security.framework in Frameworks */,
+				2846E85B14FECC8C0004D922 /* libssl.dylib in Frameworks */,
+				2846E85614FEC9FA0004D922 /* Foundation.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				280F4C82119DE2C500392063 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2846E86214FECDC00004D922 /* AsyncSocket.h */,
+				2846E86314FECDC00004D922 /* AsyncSocket.m */,
+				2846E7D714FEBD3F0004D922 /* imgr */,
+				28A74FC714E8F9CF00EEC6FC /* sbjson */,
+				280F4C2D119DDFE200392063 /* DDHotKeyCenter.h */,
+				280F4C2E119DDFE200392063 /* DDHotKeyCenter.m */,
+				256AC3D80F4B6AC300CF3369 /* GrabzoaAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* GrabzoaAppDelegate.m */,
+				280F4D91119E03E700392063 /* SettingsViewController.h */,
+				280F4D92119E03E700392063 /* SettingsViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2846E85514FEC9FA0004D922 /* Foundation.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				280F4C81119DE2C500392063 /* Carbon.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Grabzoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2846E7D714FEBD3F0004D922 /* imgr */ = {
+			isa = PBXGroup;
+			children = (
+				2846E7CB14FEBD3C0004D922 /* NSString+URLEncoding.m */,
+				2846E7CC14FEBD3C0004D922 /* NSString+URLEncoding.h */,
+				2846E7CD14FEBD3C0004D922 /* NSString+URLEscape.h */,
+				2846E7CE14FEBD3C0004D922 /* NSString+URLEscape.m */,
+				2846E7CF14FEBD3C0004D922 /* NSData+Base64.m */,
+				2846E7D014FEBD3C0004D922 /* NSData+Base64.h */,
+				2846E7D114FEBD3C0004D922 /* ImgurUploader.h */,
+				2846E7D214FEBD3C0004D922 /* ImgurUploader.m */,
+			);
+			name = imgr;
+			sourceTree = "<group>";
+		};
+		28A74FC714E8F9CF00EEC6FC /* sbjson */ = {
+			isa = PBXGroup;
+			children = (
+				28A74FC814E8F9CF00EEC6FC /* JSON.h */,
+				28A74FC914E8F9CF00EEC6FC /* NSObject+SBJSON.h */,
+				28A74FCA14E8F9CF00EEC6FC /* NSObject+SBJSON.m */,
+				28A74FCB14E8F9CF00EEC6FC /* NSString+SBJSON.h */,
+				28A74FCC14E8F9CF00EEC6FC /* NSString+SBJSON.m */,
+				28A74FCD14E8F9CF00EEC6FC /* SBJsonBase.h */,
+				28A74FCE14E8F9CF00EEC6FC /* SBJsonBase.m */,
+				28A74FCF14E8F9CF00EEC6FC /* SBJsonParser.h */,
+				28A74FD014E8F9CF00EEC6FC /* SBJsonParser.m */,
+				28A74FD114E8F9CF00EEC6FC /* SBJsonWriter.h */,
+				28A74FD214E8F9CF00EEC6FC /* SBJsonWriter.m */,
+			);
+			path = sbjson;
+			sourceTree = "<group>";
+		};
+		28E1C84E11BF5417008A69D5 /* icon-upload-animation */ = {
+			isa = PBXGroup;
+			children = (
+				28E1C84F11BF5417008A69D5 /* icon-1.png */,
+				28E1C85011BF5417008A69D5 /* icon-2.png */,
+				28E1C85111BF5417008A69D5 /* icon-3.png */,
+				28E1C85211BF5417008A69D5 /* icon-4.png */,
+				28E1C85311BF5417008A69D5 /* icon-5.png */,
+				28E1C85411BF5417008A69D5 /* icon-6.png */,
+				28E1C85511BF5417008A69D5 /* icon-7.png */,
+				28E1C85611BF5417008A69D5 /* icon-8.png */,
+				28E1C85711BF5417008A69D5 /* icon-9.png */,
+			);
+			path = "icon-upload-animation";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Grabzoa */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Grabzoa;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Grabzoa_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28E1C84E11BF5417008A69D5 /* icon-upload-animation */,
+				280F4C07119DDB8700392063 /* icon.png */,
+				8D1107310486CEB800E47090 /* Grabzoa-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainWindow.xib */,
+				280F4DB2119E06EC00392063 /* Settings.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28BC3E7F1548924900B27FB9 /* libicucore.dylib */,
+				2846E85C14FECCB80004D922 /* Security.framework */,
+				2846E85A14FECC8B0004D922 /* libssl.dylib */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Grabzoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Grabzoa" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grabzoa;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Grabzoa;
+			productReference = 8D1107320486CEB800E47090 /* Grabzoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Grabzoa" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Grabzoa */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Grabzoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainWindow.xib in Resources */,
+				280F4C08119DDB8700392063 /* icon.png in Resources */,
+				280F4DB3119E06EC00392063 /* Settings.xib in Resources */,
+				28E1C85811BF5417008A69D5 /* icon-1.png in Resources */,
+				28E1C85911BF5417008A69D5 /* icon-2.png in Resources */,
+				28E1C85A11BF5417008A69D5 /* icon-3.png in Resources */,
+				28E1C85B11BF5417008A69D5 /* icon-4.png in Resources */,
+				28E1C85C11BF5417008A69D5 /* icon-5.png in Resources */,
+				28E1C85D11BF5417008A69D5 /* icon-6.png in Resources */,
+				28E1C85E11BF5417008A69D5 /* icon-7.png in Resources */,
+				28E1C85F11BF5417008A69D5 /* icon-8.png in Resources */,
+				28E1C86011BF5417008A69D5 /* icon-9.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* GrabzoaAppDelegate.m in Sources */,
+				280F4C2F119DDFE200392063 /* DDHotKeyCenter.m in Sources */,
+				280F4D93119E03E700392063 /* SettingsViewController.m in Sources */,
+				28A74FD314E8F9CF00EEC6FC /* NSObject+SBJSON.m in Sources */,
+				28A74FD414E8F9CF00EEC6FC /* NSString+SBJSON.m in Sources */,
+				28A74FD514E8F9CF00EEC6FC /* SBJsonBase.m in Sources */,
+				28A74FD614E8F9CF00EEC6FC /* SBJsonParser.m in Sources */,
+				28A74FD714E8F9CF00EEC6FC /* SBJsonWriter.m in Sources */,
+				2846E7D314FEBD3C0004D922 /* NSString+URLEncoding.m in Sources */,
+				2846E7D414FEBD3C0004D922 /* NSString+URLEscape.m in Sources */,
+				2846E7D514FEBD3C0004D922 /* NSData+Base64.m in Sources */,
+				2846E7D614FEBD3C0004D922 /* ImgurUploader.m in Sources */,
+				2846E86414FECDC10004D922 /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Grabzoa_Prefix.pch;
+				INFOPLIST_FILE = "Grabzoa-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Grabzoa;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Grabzoa_Prefix.pch;
+				INFOPLIST_FILE = "Grabzoa-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Grabzoa;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Grabzoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Grabzoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
